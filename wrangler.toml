@@ -1,11 +1,8 @@
-name = "cf-warn-bot"
+name = "bot01"
 main = "main.py"
 compatibility_date = "2024-04-01"
+compatibility_flags = ["python_workers"]
 
 [vars]
 BOT_TOKEN = "8562246355:AAEYPTk_kHUJQ4yc_LNOGFFIRirVEETxhcs"
 OWNER_ID = "8434752311"
-
-[[kv_namespaces]]
-binding = "WARNS_DB"
-id = "ЗАМЕНИ_НА_ID_ИЗ_ПАНЕЛИ_CLOUDFLARE"
